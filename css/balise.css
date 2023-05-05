@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(8, 150, 216);
+}
+section {
+  background-color: rgb(150, 118, 80);
+}
+.section1 {
+  background-color: black;
+}
+.section2 {
+  background-color: rgb(100, 63, 134);
+}
+.section3 {
+  background-color: blueviolet;
+}
+.section4 {
+  background-color: hsl(249, 74%, 52%);
+}
+.section5 {
+  background-color: bisque;
+  height: 50px;
+}
+.section6 {
+  background-color: aqua;
+}
+.section7 {
+  background-color: rgb(90, 79, 100);
+  
+}
+section8 {
+  background-color: rgb(1, 20, 14);
+}
+header {
+  background-color: #752727;
+}
+footer {
+  background-color: black;
+}
