@@ -1,7 +1,7 @@
 body {
   background-color: rgb(8, 150, 216);
 }
-section {
+.section {
   background-color: rgb(150, 118, 80);
 }
 .section1 {
@@ -25,9 +25,8 @@ section {
 }
 .section7 {
   background-color: rgb(90, 79, 100);
-  
 }
-section8 {
+.section8 {
   background-color: rgb(1, 20, 14);
 }
 header {
