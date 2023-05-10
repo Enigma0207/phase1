@@ -1,0 +1,45 @@
+tbody {
+  padding: 200px;
+}
+tr,
+td {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+table {
+  /*bordure - 3 valeurs: épaisseur / type de trait / couleur*/
+    margin: auto;
+  border-collapse: collapse;
+}
+
+.green {
+  background-color: green;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+tfoot {
+  background-color: green;
+  border: 2px solid #6a5acd;
+}
+
+/* a chaque couleur de html, il faut un selecteur dans css */
+.yellow {
+  background-color: yellow;
+}
