@@ -1,0 +1,63 @@
+/* on commence par notre contneur cad div principal,  larger de
+ contneur est 80% de body sur la gauche cest par defaut pck il ya pas de marging auto, 
+couleur jaune mais on vas rien voir pck pas de dimension 
+hauteur. pour voir la div soit on donne hauteur soit un texte cad contenu
+on donne une phrase p dans hearder balise p un texte. on doit avoir une bordure border solide dashed:titert(si on veux) 
+mais solid cesr pour bordure solude en pixzl pour k ca soit fine, margin auto pour centrer;soit tect lin pour centrer  */
+#conteneur {
+  width: 80%;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: auto;
+}
+/*  on cree un background dans heeader; noté bien chak block a des margin par defaut
+ alors il faut tjrs faire margi=0, on definit la hauteur de header*/
+/* margin 0 dans p de header pour reduir la marge */
+p {
+  margin: 0%;
+}
+nav {
+  background-color: #4a1a2c;
+  height: 30px;
+}
+
+header {
+  background-color: #8e3557;
+  height: 60px;
+}
+
+body {
+  color: white;
+}
+/* on met un padding 5 px dans main pour mettre la marge à linterieur de 5 px */
+/* marging ecart part rapport au autres bloc et padding espace par rapport
+ a son bloc cad a linterieur de son bloc. on va  */
+main {
+  padding: 5px;
+  min-height: 100px;
+  border: 2px solid black;
+}
+section {
+  background-color: orange;
+}
+/* on donne des valeur a notre class dim */
+div.dim {
+  width: 50%;
+  height: 150px;
+  float: left;
+}
+.bordeau {
+  background-color: #4a1a2c;
+}
+.vert-foncé {
+  background-color: #787746;
+}
+.vert-clair {
+  background-color: #e6e2af;
+}
+.bleu {
+  background-color: #add8e6;
+}
+.clear {
+  clear: both;
+}

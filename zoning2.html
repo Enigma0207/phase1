@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/zoning2.css" />
+  </head>
+  <body>
+    <!-- div#container>(header+nav+main>section*2>div*2^^footer) on cree une div principal pour cadreer dedant ilya 
+    header nav main,dans main ilya 4 rectangele deux en au dans la premiere section 
+    et le deux autre rectangle d'en bas dans la deuxieme section pour enfaite avoir. le # cest le selecteur de ID,
+    on ajoute un texte dans header balise p header -->
+    <!-- conteneur -->
+    <div id="conteneur">
+      <header>
+        <p>header.HAUT</p>
+      </header>
+      <!-- p dans nav cest pour ecrir menu -->
+      <nav>
+        <p>Menu</p>
+      </nav>
+      <main>
+        <section>
+          <!-- on donne div class dim  pck toutes les dim dans section ont meme dimension -->
+          <div class="dim bordeau"></div>
+          <div class="dim vert-foncé"></div>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="dim vert-clair"></div>
+          <div class="dim bleu"></div>
+          <div class="clear"></div>
+          <!-- on met les div lear pour indiquer la fin de la sectio -->
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
