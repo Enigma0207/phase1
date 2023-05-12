@@ -1,0 +1,27 @@
+.carre1 {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+}
+.carre3 {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  flex-basis: 250px;
+
+  /* flex basic joue sur la largeeur */
+}
+.carre2 {
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+}
+.contenu {
+  width: 100%;
+  border: 1px solid orange;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+
+  /* aline itms cest pour soit en haut au centre en bas */
+}

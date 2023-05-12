@@ -1,0 +1,17 @@
+/* footer fixe nous aide a garger fixe notre footer en bas de l'ecrant */
+/* image cest inline , grace a la valeur position fixed, l'image reste fixe bootom 0 cest pour ne pas avoir de l'espace sur le footer ou limage*/
+img {
+  width: 100px;
+}
+footer {
+  height: 100px;
+  position: fixed;
+  width: 100px;
+  bottom: 0;
+  background-color: pink;
+}
+/* dans header on a position fised to zero c'est pour eviter de l'espace entre l'image etl'ecran */
+header {
+  position: fixed;
+  top: 0;
+}
